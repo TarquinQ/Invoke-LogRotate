@@ -29,6 +29,7 @@ $Global:VerbosePreference = 'Continue'
 $Script:VerbosePreference = 'Continue'
 $VerbosePreference = 'Continue'
 
+
 Function Get-RandomChars([Int]$NumChars=0, [Bool]$AllowSpecial=$True) {
     If ($NumChars -lt 1) {
         $NumChars = Get-Random -Minimum 10 -Maximum 2000  # completely arbritrary!
